@@ -1,0 +1,17 @@
+/* Container  */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#fetchfb{
+    width: 230px;
+    height: 573px;
+    margin: auto auto auto 5px;
+}
+
+#fetchgoogle{
+    width: 230px;
+    height: 573px;
+    margin: auto auto auto 5px;
+}

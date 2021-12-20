@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Information</title>
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" media=" only screen and (max-width:760px)" href="mobile.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="fetchfb">
+            <h2>Facebook Details</h2>
+            <div id="fb">
+                
+            </div>
+        </div>
+        <div id="fetchgoogle">
+            <h2>Google Details</h2>
+            <div id="google">
+
+            </div>
+        </div>
+    </div>
+    <script>
+        //Display information from Facebook
+        var fbprofile = localStorage.getItem('fbprofile');
+        let fb = document.getElementById('fb');
+        fb.innerHTML = fbprofile;
+      
+
+        //Display information from Google
+        let googleprofile = localStorage.getItem('googleprofile');
+        let google = document.getElementById('google');
+        google.innerHTML = googleprofile;
+
+        window.onload = () => {
+            //Clear the local storage
+            window.localStorage.clear();
+        }
+
+    </script>
+</body>
+
+</html>

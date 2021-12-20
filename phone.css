@@ -1,0 +1,27 @@
+/* Navbar Section  */
+.navbar{
+    height: auto;
+}
+
+.navbar h1{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+/* Container Section  */
+.container{
+    width: 300px;
+}
+
+/* Login Section  */
+.login{
+    width: 250px;
+}
+
+/* Platform Section  */
+.platform{
+    width: 163px;
+}

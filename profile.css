@@ -1,0 +1,42 @@
+/* Initializing */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Section */
+.container{
+    border: 2px solid none;
+    width: auto;
+    height: 88.2vh;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* Facebook Login button */
+#fetchfb{
+    border: 2px solid #978484;
+    background-color: #f3efeb;
+    border-radius: 27px;
+    width: 273px;
+    height: 434px;
+    padding: 0 35px 35px 35px;
+    line-height: 3.5em;
+    text-align: center;
+}
+
+/* Google Login button */
+#fetchgoogle{
+    border: 2px solid #978484;
+    background-color: #f3efeb;
+    border-radius: 27px;
+    width: 282px;
+    height: 434px;
+    padding: 0 35px 35px 35px;
+    margin-left: 53px;
+    line-height: 3.5em;
+    text-align: center;
+}
